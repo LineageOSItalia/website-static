@@ -33,8 +33,3 @@ $(document).ready(function() {
     $('.carousel').carousel();
 
 });
-
-// Tell the user the page is WIP
-$(window).load(function() {
-    Materialize.toast('Pagina in costruzione, prova a tornare nei prossimi giorni', 120000);
-});
